@@ -6,6 +6,7 @@ const login = async function(ctx){
 	resultPromise.then();
 	var result = await resultPromise;
 	ctx.body = JSON.stringify(result);
+	console.log(111);
 }
 const loginPost = function(ctx){
 	console.log('2222');
